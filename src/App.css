@@ -1,0 +1,38 @@
+/* Redefinir botón primario en rojo */
+.btn.btn-primary {
+  background-color: var(--db-color-red);
+  border-color: var(--db-color-red);
+  color: var(--db-color-white);
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:focus {
+  background-color: var(--db-color-red-700);
+  border-color: var(--db-color-red-700);
+}
+
+/* Botón tipo "outline" para temperatura */
+.btn.btn-outline-primary {
+  color: var(--db-color-red);
+  border-color: var(--db-color-red);
+}
+
+.btn.btn-outline-primary:hover,
+.btn.btn-outline-primary:focus,
+.btn.btn-outline-primary.active {
+  background-color: var(--db-color-red);
+  color: var(--db-color-white);
+  border-color: var(--db-color-red);
+}
+
+.btn.btn-success {
+  background-color: var(--db-color-success);
+  border-color: var(--db-color-success);
+  color: var(--db-color-white);
+}
+
+.btn.btn-success:hover,
+.btn.btn-success:focus {
+  background-color: var(--db-color-success-small-font);
+  border-color: var(--db-color-success-small-font);
+}
