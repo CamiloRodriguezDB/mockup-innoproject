@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig(() => {
   return {
-    base: '/mockup-innoproject',
+    base: '',
     build: {
       outDir: 'dist/react-showcase'
     },
